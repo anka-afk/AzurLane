@@ -1,0 +1,86 @@
+Buffs: {
+	破甲Debuff: {
+		DisplayName: 破甲 Debuff
+		Description: 防御降低20%
+	}
+}
+
+Items: {
+	夜姬的任性组合: {
+		DisplayName: 夜姬的任性组合
+		Tooltip:
+			'''
+			获得1%的吸血效果.
+			哼哼，你还真是不坦率……好啦，准备好收下我甜美的鲜血，迎接以罗伊的赐福吧.
+			'''
+	}
+
+	幸运舰的惩罚: {
+		DisplayName: 幸运舰的惩罚
+		Tooltip:
+			'''
+			攻击命中有5%的概率给予破甲debuff(防御-20%)
+			防御增加10%
+			——这就是你给我的答案吗？怎么办好呢……噗,真是笨啊,我的指挥官大人,我早就不是一开始那个对什么都感到空虚的我了,你难道忘了是谁让我改变的吗？
+			'''
+	}
+
+	心智魔方: {
+		DisplayName: 心智魔方
+		Tooltip:
+			'''
+			心智魔方，又名“失智魔方”，“宇宙魔方”(误).
+			 特殊的材料，主要用于制作舰船的龙骨，舰娘就诞生于心智魔方.
+			'''
+	}
+
+	钻石: {
+		DisplayName: 钻石
+		Tooltip: 奇异的宝石，有多种多样的用处。
+	}
+
+	基础枪: {
+		DisplayName: 基础枪
+		Tooltip: ""
+	}
+
+	斩舰刀: {
+		DisplayName: 斩舰刀
+		Tooltip: 绫波的斩舰刀
+	}
+
+	心智单元I: {
+		DisplayName: 心智单元 I
+		Tooltip: ""
+	}
+
+	小海狸中队队徽: {
+		DisplayName: 小海狸中队队徽
+		Tooltip:
+			'''
+			速度增加20%
+			正义不缺席.
+			'''
+	}
+}
+
+NPCs: {
+	绫波: {
+		DisplayName: 绫波
+
+		TownNPCMood: {
+			Content: 我很满足。
+			NoHome: 我讨厌没有家。
+			FarFromHome: 我离家太远了。
+			LoveSpace: 我非常喜欢有这么大的空间。
+			DislikeCrowded: 我不喜欢这么拥挤。
+			HateCrowded: 我讨厌这么拥挤。
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+
+		Census.SpawnCondition: Conditions unknown
+	}
+}
+
+Projectiles.斩舰刀刀光.DisplayName: 斩舰刀刀光

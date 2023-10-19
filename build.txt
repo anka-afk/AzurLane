@@ -1,0 +1,3 @@
+displayName = 碧蓝航线AzurLane
+author = 安卡anka
+version = 0.1
